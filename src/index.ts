@@ -2,7 +2,7 @@ const chokidar = require('chokidar');
 const fs = require('fs-promise');
 const shortid = require('shortid');
 const path = require('path');
-const defaultConfig = require('./magnet/config/i_like_to_move_it_move_it');
+const defaultConfig = require('./config/i_like_to_move_it_move_it');
 
 module.exports = function (config = {}) {
   config = Object.assign(defaultConfig, config)
