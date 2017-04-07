@@ -1,0 +1,35 @@
+{
+  "name": "i-like-to-move-it-move-it",
+  "version": "0.1.0",
+  "description": "Utilities to mvoe log file to logs/",
+  "keywords": [
+    "magnet",
+    "magnetjs",
+    "i-like-to-move-it-move-it"
+  ],
+  "homepage": "https://github.com/kievechua/i-like-to-move-it-move-it#readme",
+  "bugs": {
+    "url": "https://github.com/kievechua/i-like-to-move-it-move-it/issues"
+  },
+  "author": "Kieve Chua <kievechua@gmail.com> (https://github.com/kievechua)",
+  "main": "index.js",
+  "repository": "kievechua/i-like-to-move-it-move-it",
+  "scripts": {
+    "start": "fly",
+    "build": "fly build",
+    "dist": "npm run build && npm publish"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "chokidar": "^1.6.1",
+    "fs-extra": "^2.1.2",
+    "fs-promise": "^2.0.1",
+    "magnet-core": "^3.7.7",
+    "shortid": "^2.2.8"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=6.9.5"
+  },
+  "license": "MIT"
+}
