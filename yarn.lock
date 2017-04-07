@@ -61,7 +61,7 @@ array-unique@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/array-unique/-/array-unique-0.2.1.tgz#a1d97ccafcbc2625cc70fadceb36a50c58b01a53"
 
-arrify@^1.0.0:
+arrify@^1.0.0, arrify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
 
@@ -169,6 +169,10 @@ chokidar@^1.6.1:
     readdirp "^2.0.0"
   optionalDependencies:
     fsevents "^1.0.0"
+
+clor@^5.0.1:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/clor/-/clor-5.1.0.tgz#8d320650d7193add04ebf891d79dee4cabc80c2c"
 
 co@^4.6.0:
   version "4.6.0"
@@ -278,6 +282,47 @@ fill-range@^2.1.0:
     repeat-element "^1.1.2"
     repeat-string "^1.5.2"
 
+fly-clear@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/fly-clear/-/fly-clear-1.0.1.tgz#6e14200478c741d72b217abd916b18c75211852c"
+  dependencies:
+    arrify "^1.0.1"
+    bluebird "^3.4.7"
+    rimraf "^2.5.4"
+
+fly-esnext@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/fly-esnext/-/fly-esnext-2.0.1.tgz#0468d6b235dc519eb8fcda4ffb8cc9f19ccbb66d"
+  dependencies:
+    require-like "^0.1.2"
+
+fly-flatten@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/fly-flatten/-/fly-flatten-1.0.1.tgz#f4d1c73d4c31d3e3c492336a0b265b405ceb1866"
+
+fly-typescript@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/fly-typescript/-/fly-typescript-1.0.0.tgz#35e8b9f0e0cc90604589b394d5070988ba985ff8"
+  dependencies:
+    typescript "^2.2.1"
+
+fly-watch@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/fly-watch/-/fly-watch-1.1.1.tgz#2870081e80826faa5239379b4df97ae10aebae8d"
+  dependencies:
+    arrify "^1.0.1"
+    chokidar "^1.6.1"
+
+fly@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/fly/-/fly-2.0.5.tgz#5c204bc1740d677eb231feeffc3313d7f5e86961"
+  dependencies:
+    bluebird "^3.4.7"
+    clor "^5.0.1"
+    glob "^7.1.1"
+    minimist "^1.2.0"
+    mkdirp "^0.5.1"
+
 for-in@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -386,7 +431,7 @@ glob@^6.0.1:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-glob@^7.0.5:
+glob@^7.0.5, glob@^7.1.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.1.tgz#805211df04faaf1c63a3600306cdf5ade50b2ec8"
   dependencies:
@@ -859,7 +904,11 @@ request@^2.81.0:
     tunnel-agent "^0.6.0"
     uuid "^3.0.0"
 
-rimraf@2, rimraf@^2.5.1, rimraf@^2.6.1:
+require-like@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/require-like/-/require-like-0.1.2.tgz#ad6f30c13becd797010c468afa775c0c0a6b47fa"
+
+rimraf@2, rimraf@^2.5.1, rimraf@^2.5.4, rimraf@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
   dependencies:
@@ -994,6 +1043,10 @@ tunnel-agent@^0.6.0:
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
+
+typescript@^2.2.1:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.2.2.tgz#606022508479b55ffa368b58fee963a03dfd7b0c"
 
 uid-number@^0.0.6:
   version "0.0.6"

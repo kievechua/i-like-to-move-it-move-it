@@ -1,6 +1,6 @@
 {
   "name": "i-like-to-move-it-move-it",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Utilities to mvoe log file to logs/",
   "keywords": [
     "magnet",
@@ -16,8 +16,8 @@
   "repository": "kievechua/i-like-to-move-it-move-it",
   "scripts": {
     "start": "fly",
-    "build": "fly build",
-    "dist": "npm run build && npm publish"
+    "build": "fly buildAndCopy",
+    "dist": "npm run build && cd dist && npm publish"
   },
   "dependencies": {
     "bluebird": "^3.5.0",
@@ -27,7 +27,14 @@
     "magnet-core": "^3.7.7",
     "shortid": "^2.2.8"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "fly": "^2.0.5",
+    "fly-clear": "^1.0.1",
+    "fly-esnext": "^2.0.1",
+    "fly-flatten": "^1.0.1",
+    "fly-typescript": "^1.0.0",
+    "fly-watch": "^1.1.1"
+  },
   "engines": {
     "node": ">=6.9.5"
   },
